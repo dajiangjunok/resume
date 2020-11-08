@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 import { NavLink } from 'react-router-dom'
 import { MarkerWrapper } from './style';
 
-export default function JMarker (props) {
+export default memo(function JMarker (props) {
 
   return (
     <MarkerWrapper>
@@ -12,4 +12,4 @@ export default function JMarker (props) {
       </NavLink>
     </MarkerWrapper>
   )
-}
+})

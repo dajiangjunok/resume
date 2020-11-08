@@ -7,9 +7,8 @@ export const MarkerWrapper = styled.div`
   padding:5px 0;
   width:200px;
   height:20px;
-  color: #333;
   text-align:center;
-  background-color: lightblue;
+  background-color: #2C3E50;
   transform:rotate(45deg);
   cursor: pointer;
   
@@ -17,5 +16,6 @@ export const MarkerWrapper = styled.div`
     display:inline-block;
     width:100%;
     height:100%;
+    color:#fff;
   }
 `

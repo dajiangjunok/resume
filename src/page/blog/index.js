@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 import JMarker from '@/component/marker';
 
-export default function JBlog () {
+export default memo(function JBlog () {
   const toLink = {
     title: '我的简历',
     link: '/resume'
@@ -14,4 +14,4 @@ export default function JBlog () {
       <h2>JBlog</h2>
     </div>
   )
-}
+})
